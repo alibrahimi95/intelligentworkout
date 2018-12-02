@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+    android:background="@drawable/bg"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".AccueilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/accueil_play"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/play"
+            android:text="Play"
+            android:textColor="#FFFFFF"
+ />
+
+        <Button
+            android:id="@+id/accueil_load"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/replay"
+            android:text="Replay"
+            android:textColor="#FFFFFF"
+          
+           />
+
+        <Button
+            android:id="@+id/accueil_best"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/score"
+            android:text="Best Score"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/accueil_apropos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:text="About"
+            android:textColor="#FFFFFF"
+          />
+
+        <Button
+            android:id="@+id/accueil_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/exit"
+            android:text="Exit"
+            android:textColor="#FFFFFF"
+         />
+
+    </LinearLayout>
+
+</LinearLayout>

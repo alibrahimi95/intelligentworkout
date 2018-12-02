@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+    android:background="@drawable/bg"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".AproposActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application by"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="216dp"
+        android:layout_height="20dp"
+        android:text="BRAHIMI Ali"
+        android:textColor="#ffffff"
+       android:gravity="center"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="215dp"
+        android:layout_height="21dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="50dp"
+        android:text="BOUSSAD Sabrina"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Year"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-2019"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+  
+
+</LinearLayout>
