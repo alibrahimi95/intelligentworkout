@@ -25,7 +25,8 @@ public class AccueilActivity extends Activity {
         accueil_load=(Button) findViewById(R.id.accueil_load);
         accueil_best=(Button) findViewById(R.id.accueil_best);
         accueil_play=(Button) findViewById(R.id.accueil_play);
-        accueil_apropos.setOnClickListener(new View.OnClickListener() {
+//informations sur l'application       
+ accueil_apropos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(AccueilActivity.this,AproposActivity.class);
@@ -34,7 +35,7 @@ public class AccueilActivity extends Activity {
         });
 
         //Enregistrez l'écouteur onClick avec l'implémentation ci-dessus
-/// replayyy
+/// replay
         accueil_load.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,7 +43,7 @@ public class AccueilActivity extends Activity {
                 startActivity(intent);
             }
         });
-/// meileur score
+/// meilleur score réalisé
         accueil_best.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,7 +51,7 @@ public class AccueilActivity extends Activity {
                 startActivity(intent);
             }
         });
-/// palayyy mene au mainActivity
+/// play mène au mainActivity
         accueil_play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,6 +59,7 @@ public class AccueilActivity extends Activity {
                 startActivity(intent);
             }
         });
+//le boutton exit permet de sortir de l'application 
         accueil_exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
