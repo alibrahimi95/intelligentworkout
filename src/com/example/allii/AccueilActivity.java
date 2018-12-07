@@ -29,7 +29,7 @@ public class AccueilActivity extends Activity {
  accueil_apropos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(AccueilActivity.this,AproposActivity.class);
+                Intent intent=new Intent(AccueilActivity.this,AproposActivity.class);//ce boutton mene a la classe appelée AproposActivity
                 startActivity(intent);
             }
         });
@@ -39,7 +39,7 @@ public class AccueilActivity extends Activity {
         accueil_load.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(AccueilActivity.this,LoadActivity.class);
+                Intent intent=new Intent(AccueilActivity.this,LoadActivity.class);//ce boutton mene a la classe appelée LoadActivity
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class AccueilActivity extends Activity {
         accueil_best.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(AccueilActivity.this,BestPlayerActivity.class);
+                Intent intent=new Intent(AccueilActivity.this,BestPlayerActivity.class);//ce boutton mene a la classe appelée BestPLayerActivity
                 startActivity(intent);
             }
         });
@@ -55,7 +55,7 @@ public class AccueilActivity extends Activity {
         accueil_play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(AccueilActivity.this,MainActivity.class);
+                Intent intent=new Intent(AccueilActivity.this,MainActivity.class);//ce boutton mene a la classe appelée MainActivity
                 startActivity(intent);
             }
         });
@@ -66,7 +66,7 @@ public class AccueilActivity extends Activity {
                // finish();
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    finishAffinity();
+                    finishAffinity();      //permet de sortir du programme
                 }
 
             }
