@@ -9,7 +9,7 @@ import android.util.Log;
 import java.util.ArrayList;
 
 /**
- * Created by kahina on 03/12/2017.
+ * Created by Sabrina en 2018
  */
 
 public class JeuxDB extends HelperDB {
