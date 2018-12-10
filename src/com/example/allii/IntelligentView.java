@@ -22,7 +22,7 @@ import java.util.Date;
 
 import com.example.ali.R;
 
-
+//extends surfaceView permet d'ajouter intelligentView au fichier XML
 public class IntelligentView extends SurfaceView implements SurfaceHolder.Callback, Runnable,GestureDetector.OnGestureListener {
 
     boolean ispause=false,debutjeux=false;
