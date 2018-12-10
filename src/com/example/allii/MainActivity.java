@@ -6,12 +6,12 @@ import com.example.allii.AccueilActivity;
 import android.app.Activity;
 import android.content.Intent;// pour y aller dune feunetre a une autre
 import android.media.MediaPlayer; //musique
-import android.os.Bundle;
-import android.util.Log;
+import android.os.Bundle;//outil de persistance
+import android.util.Log;//alerte
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.TextView;
+import android.view.View;//objets(button)
+import android.widget.TextView;//Textview
 
 public class MainActivity extends Activity implements Runnable {
     MenuItem pauseResume,sound;
